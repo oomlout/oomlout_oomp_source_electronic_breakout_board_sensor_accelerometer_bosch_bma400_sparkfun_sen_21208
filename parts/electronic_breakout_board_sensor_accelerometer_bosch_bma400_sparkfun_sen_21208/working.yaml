@@ -20,11 +20,15 @@ oomp_open_hardware_project_file_list:
   source_file: Hardware/Qwiic 1x1/SparkFun_Qwiic_Accelerometer_BMA400.brd
 - destination_file: eagle_schematic.sch
   source_file: Hardware/Qwiic 1x1/SparkFun_Qwiic_Accelerometer_BMA400.sch
+- destination_file: license.md
+  source_file: license.md
 oomp_open_hardware_project_repo: https://github.com/sparkfun/SparkFun_Qwiic_Accelerometer_BMA400
 oomp_open_hardware_project_website: https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-bma400-qwiic.html
 oomp_part_number: sen_21208
 oomp_size: accelerometer
 oomp_type: breakout_board_sensor
+oshwa_registration_link: https://certification.oshwa.org/us002319.html
+oshwa_registration_number: us002319
 part_number: sen_21208
 size: accelerometer
 type: breakout_board_sensor
