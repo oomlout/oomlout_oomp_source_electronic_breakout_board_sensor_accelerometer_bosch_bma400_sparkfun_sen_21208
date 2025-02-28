@@ -15,3 +15,5 @@ oomp_open_hardware_project_file_list:
     source_file: "Hardware/Qwiic 1x1/SparkFun_Qwiic_Accelerometer_BMA400.sch"
   #  - destination_file: "kicad/working.kicad_board"
   #     source_file: ""
+oshwa_registration_number: 'us002319'
+oshwa_registration_link: 'https://certification.oshwa.org/us002319.html'
