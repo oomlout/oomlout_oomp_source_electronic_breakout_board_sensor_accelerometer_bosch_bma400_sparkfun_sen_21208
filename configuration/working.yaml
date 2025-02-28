@@ -17,5 +17,7 @@ oomp_open_hardware_project_file_list:
   #     source_file: ""
   - destination_file: "license_source.md"
     source_file: "license.md"
+  - destination_file: "readme_source.md"
+    source_file: "README.md"
 oshwa_registration_number: 'us002319'
 oshwa_registration_link: 'https://certification.oshwa.org/us002319.html'
