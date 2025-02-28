@@ -126,8 +126,17 @@ def create_oomp_id(**kwargs):
         ele = kwargs.get(element,"")
         if ele != "":
             oomp_id += ele + '_'
-        
+        element_name_raw = element.replace('oomp_','')
+        kwargs.update({element_name_raw:ele})    
     oomp_id = oomp_id[:-1]
+
+    md5 = md5_from_string(oomp_id)
+    kwargs['md5'] = md5
+    kwargs['md5_6'] = md5[:6]
+    kwargs['md5_6_alpha'] = hex_to_alpha(md5[:6])
+    kwargs['md5_10'] = md5[:10]
+    kwargs['md5_10_alpha'] = hex_to_alpha(md5[:10])
+
 
     kwargs['oomp_id'] = oomp_id
     folder = f"parts\\{oomp_id}"
@@ -136,9 +145,26 @@ def create_oomp_id(**kwargs):
     print("        Done")
     return kwargs
 
+def md5_from_string(string):
+    import hashlib
+    m = hashlib.md5()
+    m.update(string.encode('utf-8'))
+    return m.hexdigest()
 
+def hex_to_alpha(hex_str):
+    # Convert hex string to integer
+    num = int(hex_str, 16)
+    
+    # Define the mapping of integers to alphanumeric characters
+    alpha_map = 'abcdefghijklmnopqrstuvwxyz0123456789'
+    
+    # Get the corresponding alphanumeric character
+    if num < len(alpha_map):
+        return alpha_map[num]
+    else:
+        return None  # Return None if the number is out of range
 
-
+    
 
 if __name__ == '__main__':
     kwargs = {}

@@ -1,0 +1,30 @@
+classification: electronic
+color: bosch_bma400
+description_extra: ''
+description_main: ''
+folder: parts\electronic_breakout_board_sensor_accelerometer_bosch_bma400_sparkfun_sen_21208
+manufacturer: sparkfun
+md5: cf30ef55e78b902fab50aefd5102dabd
+md5_10: cf30ef55e7
+md5_10_alpha: null
+md5_6: cf30ef
+md5_6_alpha: null
+oomp_classification: electronic
+oomp_color: bosch_bma400
+oomp_description_extra: ''
+oomp_description_main: ''
+oomp_id: electronic_breakout_board_sensor_accelerometer_bosch_bma400_sparkfun_sen_21208
+oomp_manufacturer: sparkfun
+oomp_open_hardware_project_file_list:
+- destination_file: eagle_board.brd
+  source_file: Hardware/Qwiic 1x1/SparkFun_Qwiic_Accelerometer_BMA400.brd
+- destination_file: eagle_schematic.sch
+  source_file: Hardware/Qwiic 1x1/SparkFun_Qwiic_Accelerometer_BMA400.sch
+oomp_open_hardware_project_repo: https://github.com/sparkfun/SparkFun_Qwiic_Accelerometer_BMA400
+oomp_open_hardware_project_website: https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-bma400-qwiic.html
+oomp_part_number: sen_21208
+oomp_size: accelerometer
+oomp_type: breakout_board_sensor
+part_number: sen_21208
+size: accelerometer
+type: breakout_board_sensor

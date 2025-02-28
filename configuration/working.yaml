@@ -1,17 +1,17 @@
-oomp_classification: ''
-oomp_type: ''
-oomp_size: ''
-oomp_color: ''
+oomp_classification: 'electronic'
+oomp_type: 'breakout_board_sensor'
+oomp_size: 'accelerometer'
+oomp_color: 'bosch_bma400'
 oomp_description_main: ''
 oomp_description_extra: ''
-oomp_manufacturer: ''
-oomp_part_number: ''
-oomp_open_hardware_project_website: ''
-oomp_open_hardware_project_repo: ''
+oomp_manufacturer: 'sparkfun'
+oomp_part_number: 'sen_21208'
+oomp_open_hardware_project_website: 'https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-bma400-qwiic.html'
+oomp_open_hardware_project_repo: 'https://github.com/sparkfun/SparkFun_Qwiic_Accelerometer_BMA400'
 oomp_open_hardware_project_file_list:
-  # - destination_file: "eagle_board.brd"
-  #   source_file: ""
-  # - destination_file: "eagle_schematic.sch"
-  #   source_file: ""
+  - destination_file: "eagle_board.brd"
+    source_file: "Hardware/Qwiic 1x1/SparkFun_Qwiic_Accelerometer_BMA400.brd"
+  - destination_file: "eagle_schematic.sch"
+    source_file: "Hardware/Qwiic 1x1/SparkFun_Qwiic_Accelerometer_BMA400.sch"
   #  - destination_file: "kicad/working.kicad_board"
   #     source_file: ""
